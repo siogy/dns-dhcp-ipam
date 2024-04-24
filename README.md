@@ -1,7 +1,7 @@
 # DDI Solution
 
 ### solution for dns,dchp and ip address management
-### scripting isntallation for standalone
+### scripting installation for standalone
 
 - DNS - bind9
 - DHCP - isc kea-dhcp
