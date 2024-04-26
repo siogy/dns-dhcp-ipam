@@ -1,0 +1,15 @@
+$TTL    86400
+@       IN      SOA     ns1.dnsserver.local. admin.dnsserver.local. (
+                        2022042501 ; Serial
+                        3600       ; Refresh
+                        1800       ; Retry
+                        604800     ; Expire
+                        86400 )    ; Negative Cache TTL
+;
+@       IN      NS      ns1.dnsserver.local.
+@       IN      A       10.10.1.135
+ns1     IN      A       10.10.1.135
+teemip  IN      A       10.10.1.68
+ns2     IN      A       10.10.1.135
+pf      IN      A       10.10.1.66
+@       IN      A       10.10.1.156
