@@ -1,9 +1,21 @@
 # DDI Solution
 
-### solution for dns,dchp and ip address management
-### scripting installation for standalone
+A standalone solution for DNS, DHCP, and IP Address Management using BIND9, ISC Kea-DHCP, TeemIP, and PacketFence.
 
-- DNS - bind9
-- DHCP - isc kea-dhcp
-- IPAM - teemip
-- Policy - PacketFence
+## Components
+
+- **DNS**: BIND9
+- **DHCP**: ISC Kea-DHCP
+- **IPAM**: TeemIP
+- **Policy**: PacketFence
+
+## Architecture
+
+![Architecture](images/picture2.png)
+
+## Installation
+
+Clone the repository and follow the installation instructions:
+
+```bash
+git clone https://github.com/siogy/dns-dhcp-ipam.git
