@@ -11,7 +11,7 @@ A standalone solution for DNS, DHCP, and IP Address Management using BIND9, ISC 
 
 ## Architecture
 
-![Architecture](images/picture2.png)
+![Architecture](images/Picture2.png)
 
 ## Installation
 
